@@ -13,7 +13,7 @@ const Activities = (props) => {
     <>
       <div className="column is-1" />
 
-      <div className="column is-10" style={{ marginTop: 20, paddingLeft: 40, paddingRight: 0 }}>
+      <div className="column is-10">
         <p className="title is-4" style={{ fontWeight: 700, color: "hsl(228, 12%, 44%)", marginBottom: 40 }}>
         Activities
         </p>
