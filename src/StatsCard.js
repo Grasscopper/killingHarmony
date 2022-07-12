@@ -13,7 +13,7 @@ const StatsCard = (props) => {
 
   return (
     <div className="column is-3">
-      <div className={props.statsCardColor} style={{ paddingTop: 20, cursor: "pointer" }} onClick={() => { props.setChartOpen(true) }}>
+      <div className={props.statsCardColor} style={{ paddingTop: 20, cursor: "pointer" }}>
         <img src={props.icon} style={{ height: 20, width: 20 }}/>
         <p className="icon-text" style={{
           paddingLeft: 8,
@@ -33,11 +33,13 @@ const StatsCard = (props) => {
           paddingTop: 0,
           letterSpacing: ".3rem",
           fontWeight: 500,
-          color: "hsl(228, 0%, 44%)"
-        }}>{props.max}</p>
+          color: "hsl(228, 0%, 44%)",
+          marginBottom: 12
+        }}>/{props.max}</p>
 
-        {engagementIcon}
-        <p className="icon-text" style={{ paddingBottom: 15, fontSize: 14, fontWeight: "bold", color: engagementColor }}>{engagementPercentage} Today</p>
+        <div style={{ padding: 10 }}>
+        <progress className="progress is-success" value={props.current} max={props.max} />
+        </div>
       </div>
     </div>
   )

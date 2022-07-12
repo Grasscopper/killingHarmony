@@ -1,5 +1,4 @@
-import React from 'react';
-import School from "./fontawesome-free-6.1.1-web/svgs/solid/school.svg"
+import React from 'react'
 
 const Header = (props) => {
   return (
@@ -15,15 +14,7 @@ const Header = (props) => {
         </p>
       </div>
 
-      <div className="column is-4" />
-
-      <div className="column is-1" style={{ marginTop: 20 }}>
-      <figure className="image is-64x64">
-        <img src={School} />
-      </figure>
-      </div>
-
-      <div className="column is-1" />
+      <div className="column is-6" />
     </>
   )
 }

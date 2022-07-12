@@ -5,17 +5,17 @@ body {
   font-family: 'Inter';
 }
 
-.top-background-color {
+/* .top-background-color {
   width: 103%;
   background-color: hsl(225, 100%, 98%);
   height: 67%;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .column {
     max-width: 375px;
   }
-}
+} */
 
 .stats-card-nest {
   background-color: hsl(227, 47%, 96%);
@@ -38,11 +38,11 @@ body {
 .overview-card-background {
   background-color: hsl(227, 47%, 96%);
   border-radius: 4px;
-  min-height: 121.5px;
+  /* min-height: 121.5px; */
 }
 
 .overview-card-background:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
   border-radius: 4px;
-  min-height: 121.5px;
+  /* min-height: 121.5px; */
 }
