@@ -28,7 +28,8 @@ figure {
   border-color: #000000;
   border-radius: 4px;
 
-  min-height: 222px;
+  /* min-height: 222px; */
+  min-height: 286px;
 
   /* box-shadow: 7px 7px 2px 1px rgba(34, 209, 96, .2); */
 }
@@ -40,7 +41,8 @@ figure {
   border-color: #000000;
   border-radius: 4px;
 
-  min-height: 222px;
+  /* min-height: 222px; */
+  min-height: 286px;
 
   /* box-shadow: 7px 7px 2px 1px rgba(34, 209, 96, .2); */
 }
@@ -52,7 +54,8 @@ figure {
   border-color: #000000;
   border-radius: 4px;
 
-  min-height: 222px;
+  /* min-height: 222px; */
+  min-height: 286px;
 
   /* box-shadow: 7px 7px 2px 1px rgba(34, 209, 96, .2); */
 }
@@ -64,7 +67,8 @@ figure {
   border-color: #000000;
   border-radius: 4px;
 
-  min-height: 222px;
+  /* min-height: 222px; */
+  min-height: 286px;
 
   /* box-shadow: 7px 7px 2px 1px rgba(34, 209, 96, .2); */
 }
