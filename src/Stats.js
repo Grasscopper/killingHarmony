@@ -7,43 +7,37 @@ import Hope from "./fontawesome-free-6.1.1-web/svgs/regular/face-smile.svg"
 
 const Stats = (props) => {
   return (
-    <>
-      <div className="column is-1" />
-
-      <div className="column is-10" style={{ marginTop: 20}}>
+      <div className="column is-12" style={{ marginTop: 20}}>
         <div className="columns is-multiline" style={{ textAlign: "center"}}>
           <StatsCard
-            statsCardColor="stats-card-nest"
+            statsCardColor="health-card-nest"
             icon={Heart}
             name="Health"
             current="20"
             max="20" />
 
           <StatsCard
-            statsCardColor="stats-card-nest"
+            statsCardColor="attack-card-nest"
             icon={Fist}
             name="Attack"
             current="6"
             max="6" />
 
           <StatsCard
-            statsCardColor="stats-card-nest"
+            statsCardColor="defense-card-nest"
             icon={Shield}
             name="Defense"
             current="2"
             max="2" />
 
           <StatsCard
-            statsCardColor="stats-card-nest"
+            statsCardColor="hope-card-nest"
             icon={Hope}
             name="Hope"
             current="9"
             max="10" />
         </div>
       </div>
-
-      <div className="column is-1" />
-    </>
   )
 }
 
