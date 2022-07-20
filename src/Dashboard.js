@@ -13,10 +13,14 @@ const Dashboard = (props) => {
             <p className="title">Killing Harmony</p>
           </div>
       </section>
-      <div className="columns is-multiline" style={{ paddingLeft: 130, paddingRight: 130, margin: 0 }}>
-          <Profile />
-          <Stats />
-          <Activities />
+      <div className="columns is-multiline" style={{ paddingLeft: 13, paddingRight: 13, margin: 0 }}>
+          <Profile
+            playerName={props.G.player.name}
+            time={props.G.time}
+            currentDay={props.G.day}
+            nextDay={props.moves.nextDay} />
+          <Stats player={props.G.player} />
+          <Activities moves={props.moves} />
       </div>
     </>
   )
