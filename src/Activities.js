@@ -10,10 +10,7 @@ import Item from "./fontawesome-free-6.1.1-web/svgs/solid/suitcase.svg"
 
 const Activities = (props) => {
   return (
-    <>
-      <div className="column is-1" />
-
-      <div className="column is-10">
+      <div className="column is-12">
         <p className="title is-4" style={{ fontWeight: 700, color: "hsl(228, 12%, 44%)", marginBottom: 40 }}>
         Activities
         </p>
@@ -67,11 +64,7 @@ const Activities = (props) => {
             benefit="+2"
             benefitIcon={Heart} />
         </div>
-
       </div>
-
-      <div className="column is-1" />
-    </>
   )
 }
 
