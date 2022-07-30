@@ -19,55 +19,63 @@ const Activities = (props) => {
           <ActivityCard
             activity="Train at the gym"
             action={props.moves.trainAtGym}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Fist} />
 
           <ActivityCard
-            activity="Go swimming"
-            action={props.moves.trainAtGym}
+            activity="Swim at the pool"
+            action={props.moves.swimAtPool}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Shield} />
 
           <ActivityCard
-            activity="Spend time with a friend"
-            action={props.moves.trainAtGym}
-            costIcon={Time}
-            benefit="+2"
-            benefitIcon={Hope} />
-
-          <ActivityCard
             activity="Spend time with a stranger"
-            action={props.moves.trainAtGym}
+            action={props.moves.hangWithStranger}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Hope} />
 
           <ActivityCard
+            activity="Spend time with a friend"
+            action={props.moves.hangWithFriend}
+            cost="2"
+            costIcon={Time}
+            benefit="+2"
+            benefitIcon={Hope} />
+
+          <ActivityCard
             activity="Enter a dungeon"
-            action={props.moves.trainAtGym}
+            action={props.moves.enterDungeon}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Key} />
 
           <ActivityCard
             activity="Go to the school store"
-            action={props.moves.trainAtGym}
+            action={props.moves.shopAtStore}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Item} />
 
           <ActivityCard
-            activity="Eat"
-            action={props.moves.trainAtGym}
+            activity="Eat at dining hall"
+            action={props.moves.eatAtHall}
+            cost="1"
             costIcon={Time}
             benefit="+1"
             benefitIcon={Heart} />
 
           <ActivityCard
-            activity="Rest"
-            action={props.moves.trainAtGym}
+            activity="Rest in dorm"
+            action={props.moves.restInDorms}
+            cost="2"
             costIcon={Time}
             benefit="+2"
             benefitIcon={Heart} />

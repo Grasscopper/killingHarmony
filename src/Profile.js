@@ -2,6 +2,8 @@ import React from 'react';
 import Makoto from "./DanganronpaAvatars/Makoto.jpeg";
 import Time from "./fontawesome-free-6.1.1-web/svgs/solid/clock.svg";
 import Heart from "./fontawesome-free-6.1.1-web/svgs/solid/heart.svg";
+import Key from "./modifiedIcons/whiteKey.svg";
+import Item from "./modifiedIcons/whiteSuitcase.svg";
 
 const Profile = (props) => {
   let times = Array(props.time).fill(0)
@@ -9,6 +11,24 @@ const Profile = (props) => {
     return (
       <span className="image is-96x96" style={{ marginTop: 40, marginLeft: 5, marginRight: 5 }} key={index}>
       <img src={Time}></img>
+      </span>
+    )
+  })
+
+  let passwords = Array(props.passwords).fill(0)
+  let passwordTiles = passwords.map((pass, index) => {
+    return (
+      <span className="icon" style={{ marginLeft: 10, marginRight: 10 }}>
+      <img src={Key}></img>
+      </span>
+    )
+  })
+
+  let items = Array(props.items).fill(0)
+  let itemTiles = items.map((item, index) => {
+    return (
+      <span className="icon" style={{ marginLeft: 10, marginRight: 10 }}>
+      <img src={Item}></img>
       </span>
     )
   })
@@ -39,17 +59,8 @@ const Profile = (props) => {
                   </figure>
 
                   <span className="icon-text" style={{ padding: 20 }}>
-                    <span className="icon" style={{ marginLeft: 10, marginRight: 10 }}>
-                    <img src={Heart}></img>
-                    </span>
-
-                    <span className="icon" style={{ marginLeft: 10, marginRight: 10 }}>
-                    <img src={Heart}></img>
-                    </span>
-
-                    <span className="icon" style={{ marginLeft: 10, marginRight: 10 }}>
-                    <img src={Heart}></img>
-                    </span>
+                  {passwordTiles}
+                  {itemTiles}
                   </span>
 
               </div>
