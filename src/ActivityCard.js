@@ -2,6 +2,11 @@ import React from 'react';
 import Minus from "./fontawesome-free-6.1.1-web/svgs/solid/minus.svg"
 
 const ActivityCard = (props) => {
+  let moreTimeRequired = <></>
+  if (props.cost > 1) {
+    moreTimeRequired = <img src={props.costIcon} style={{ height: 20, width: 20 }}/>
+  }
+
   return (
     <div className="column is-3" style={{  marginBottom: 20 }}>
       <div className="overview-card-background" style={{ cursor: "pointer" }}>
@@ -21,6 +26,7 @@ const ActivityCard = (props) => {
 
               <span>
               <img src={props.costIcon} style={{ height: 20, width: 20 }}/>
+              {moreTimeRequired}
               </span>
             </span>
           </div>
