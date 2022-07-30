@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/killingHarmony/static/css/main.a0a1f196.css",
+    "main.js": "/killingHarmony/static/js/main.5eb41acb.js",
+    "static/js/787.8e58ee9f.chunk.js": "/killingHarmony/static/js/787.8e58ee9f.chunk.js",
+    "static/media/Makoto.jpeg": "/killingHarmony/static/media/Makoto.d84cfa7a84574ad76f90.jpeg",
+    "static/media/logo.svg": "/killingHarmony/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/hand-fist.svg": "/killingHarmony/static/media/hand-fist.aad74adaa71d8854a55ad3f155655bf1.svg",
+    "static/media/face-smile.svg": "/killingHarmony/static/media/face-smile.f01c95843338f9859a49250a2ef8e93e.svg",
+    "static/media/hourglass.svg": "/killingHarmony/static/media/hourglass.84cce765db97350f8ff7bb873cc5a022.svg",
+    "static/media/whiteKey.svg": "/killingHarmony/static/media/whiteKey.4733aec381c8e80c7a42d8ea40a8b959.svg",
+    "static/media/key.svg": "/killingHarmony/static/media/key.22e9b7a758e7f67ab1cdd626df70c0c0.svg",
+    "index.html": "/killingHarmony/index.html",
+    "static/media/heart.svg": "/killingHarmony/static/media/heart.6cf5e8723e0fd09c33c8618df60ea517.svg",
+    "static/media/shield-halved.svg": "/killingHarmony/static/media/shield-halved.ece2a852dc80f03135d22f16c234262b.svg",
+    "static/media/clock.svg": "/killingHarmony/static/media/clock.5574934d846ee236fd03325e465b1749.svg",
+    "static/media/whiteSuitcase.svg": "/killingHarmony/static/media/whiteSuitcase.850ae01287b9846ae022f241a33eb4e3.svg",
+    "static/media/suitcase.svg": "/killingHarmony/static/media/suitcase.0bc4b5e2ca13241dcb58cdb6a182d886.svg",
+    "static/media/minus.svg": "/killingHarmony/static/media/minus.6179412b61eb382d8f4a310b5301c8ed.svg",
+    "main.a0a1f196.css.map": "/killingHarmony/static/css/main.a0a1f196.css.map",
+    "main.5eb41acb.js.map": "/killingHarmony/static/js/main.5eb41acb.js.map",
+    "787.8e58ee9f.chunk.js.map": "/killingHarmony/static/js/787.8e58ee9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0a1f196.css",
+    "static/js/main.5eb41acb.js"
+  ]
+}
